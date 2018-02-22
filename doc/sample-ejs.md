@@ -25,7 +25,7 @@ updated 1 package in 1.51s
 ```
 
 ## ソースコード
-* sample-ejs.js
+* learn-ejs.js
 ```
 const http = require('http');
 const fs = require('fs');
@@ -38,7 +38,7 @@ const server = http.createServer();
 server.on('request', function(req, res) {
 
     // template.ejsをUTF8で読み込む
-    var template = fs.readFileSync('./template.ejs', 'utf-8');
+    var template = fs.readFileSync('./learn.ejs', 'utf-8');
     // templateに変数の値を埋め込む
     var page = ejs.render(template, data);
 
