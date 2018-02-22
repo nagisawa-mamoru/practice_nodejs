@@ -2,7 +2,8 @@
 ## ハンズオンテキスト
 * [httpサーバ](./doc/sample-http.md)
 * [EJSテンプレート](./doc/sample-ejs.md)
-* [スクレイピング](./doc/scraping.md)
+* [スクレイピング](./doc/sample-scraping.md)
+* [Promise化](./doc/sample-promise.md)
 
 ## カスタマイズ
 本日の内容を組み合わせてカスタマイズしたアニメ情報サイトを作成してみましょう。
